@@ -1,0 +1,12 @@
+{
+    "name": "ben/php_cms",
+    "license": "MIT",
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "files": [
+			"admin/models/Page.php"
+		]
+    }
+}
