@@ -1,6 +1,7 @@
-Try to fix routing
-Fix static links
-Add back button for "customer" to return from article into a list?
-Project needs more styling(as usual)
-Prepare DB, instructions about connection
-Test htpasswd with different directory
+     Try to fix routing
+     Fix static links
+     Add back button for "customer" to return from article into a list?
+     Project needs more styling(as usual)
+DONE-Prepare DB, instructions about connection                               
+     Test htpasswd with different directory
+     Add DB field current date to check when page was created or updated! Can be listed by this option later
