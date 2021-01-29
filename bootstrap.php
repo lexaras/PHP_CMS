@@ -24,12 +24,7 @@ ini_set('display_errors', 'On');
 
 define('APP_ROOT', __DIR__);
 define('VIEW_ROOT', APP_ROOT .'/app/views');
-//echo APP_ROOT;
 define('BASE_URL', 'http://localhost/PHP_CMS/');
-
-//$db= new PDO('mysql:host=127.0.0.1;dbname=cms', 'root', 'mysql');
-
 // obtaining the entity manager
 $entityManager = EntityManager::create($conn, $config);
 
-require 'app/functions.php';

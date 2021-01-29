@@ -1,1 +1,1 @@
-# PHP_CMS
+CMS with Doctrine ORM and MVC architecture

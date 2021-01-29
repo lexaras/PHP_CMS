@@ -1,5 +1,5 @@
 <?php require VIEW_ROOT . '/templates/header.php'; ?>
-    HOME
+    Page list
     <?php if (empty($pages)): ?>
         <p>Sorry, no pages at the moment</p>
     <?php else: ?>

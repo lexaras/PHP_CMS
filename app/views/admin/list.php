@@ -3,7 +3,7 @@
     <ul>
         <li>Admin area</li>
         <li><a href="<?php echo BASE_URL; ?>">View Website</a></li>
-        <li>Click here to <a href="login.php?action=logout"> logout.</a></li>
+        <li>Click here to <a href="index.php?action=logout"> logout.</a></li>
     </ul>
 </div>
 
@@ -16,7 +16,7 @@
                     <th>Label</th>
                     <th>Title</th>
                     <th>Slug</th>
-                    <th></th>
+                    <th>Actions</th>
                     <th></th>
                 </tr>            
             </thead>    

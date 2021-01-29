@@ -72,7 +72,7 @@
             header('Location: ' . BASE_URL . '/admin/list.php');
         } else {
         ?>
-            <form id="login" action="./login.php" method="post">
+            <form id="login" action="./index.php" method="post">
                 <p> Sign up </p>
                 <input type="text" name="username" placeholder="username = Benas" required autofocus></br>
                 <input type="password" name="password" placeholder="password = 12345" required>

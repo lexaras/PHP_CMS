@@ -1,4 +1,5 @@
 AuthType Basic
 AuthName "Restricted Area"
-AuthUserFile /Users/Benas/.htpasswd
+# AuthUserFile /Users/Benas/.htpasswd
+AuthUserFile /Users/.htpasswd
 require valid-user
