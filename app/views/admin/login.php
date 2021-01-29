@@ -1,12 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <style>
+        #login {
+            width: 300px;
+            height: 250px;
+            background-color: cornsilk;
+            border: 3px solid black;
+            text-align: center;
+        }
+
+        #login>input {
+            margin-top: 15px;
+            padding: 4px 4px;
+        }
+
+        .button1 {
+            margin-top: 20px;
+            width: 140px;
+            font-weight: 700;
+            color: green;
+        }
+        .logout {
+            position: absolute;
+            font-size: large;
+            font-weight: 700;
+            margin-left: 80%;
+            margin-top: -8vh;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,11 +73,11 @@
         } else {
         ?>
             <form id="login" action="./login.php" method="post">
-                <p> <img src="css/images.png" >Sign up  </p>
+                <p> Sign up </p>
                 <input type="text" name="username" placeholder="username = Benas" required autofocus></br>
                 <input type="password" name="password" placeholder="password = 12345" required>
                 <button class="button1" type="submit" name="login">Login</button>
-                
+
             <?php } ?>
     </div>
 </body>

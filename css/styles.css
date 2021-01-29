@@ -1,0 +1,29 @@
+#login {
+    width: 300px;
+    height: 250px;
+    background-color: cornsilk;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 3px solid black;
+    text-align: center;
+  }
+  
+  #login > input {
+    margin-top: 15px;
+    padding: 4px 4px;
+  }
+  
+  .button1 {
+    margin-top: 20px;
+    width: 100px;
+    font-weight: 700;
+    color: green;
+  }
+  
+  .logout {
+    position: absolute;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 80%;
+    margin-top: -8vh;
+  }
